@@ -5,7 +5,7 @@ import pandas as pd
 
 def calculate_demographic_data(print_data=True):
     # Read data from file
-    df = pd.read_csv('adult_data.csv')
+    df = pd.read_csv('adult.data.csv')
     df.head()
     
     # How many of each race are represented in this dataset? This should be a Pandas series with race names as the index labels.
